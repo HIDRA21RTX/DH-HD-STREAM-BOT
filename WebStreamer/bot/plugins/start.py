@@ -24,7 +24,7 @@ HELP_TEXT = """
 <i>- Los Links generados son permanente con la velocidad más rápida</i>\n
 <u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
 <b>🔞 Subir contenidos nopor conduce a una delicioso BAN permanente.</b>\n
-<i>Póngase en contacto con el desarrollador (o) informe de errores</i> <b>: <a href='https://t.me/CLAY_MODS'>[ click here ]</a></b>"""
+<i>Póngase en contacto con el desarrollador (o) informe de errores</i> <b>: <a href='https://t.me/CLAY_MODS'>[ Haga clic aquí ]</a></b>"""
 
 ABOUT_TEXT = """
 <b>⚜ Mi Nombre : DH-HD STREAM 👻</b>\n
@@ -105,7 +105,7 @@ async def start(b, m):
                     text="<i>Únete a mi grupo de DH-HD COMPLETOS para usarme 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton("Únete ahora 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Únete ahora 🔓", url=f"https://t.me/joinchat/{Var.UPDATES_CHANNEL}")
                             ]]
                     ),
                     parse_mode="HTML"
@@ -144,7 +144,7 @@ async def start(b, m):
                     text="**Únase a mi grupo de DH-HD COMPLETOS para usar el Bᴏᴛ**!\n\n**Debido a la sobrecarga, solo los miembros del grupo pueden usar el Bᴏᴛ**!",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton("🤖 Únete al grupo", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                          InlineKeyboardButton("🤖 Únete al grupo", url=f"https://t.me/joinchat/{Var.UPDATES_CHANNEL}")
                             ]]
                     ),
                     parse_mode="markdown"
@@ -193,7 +193,7 @@ async def start(b, m):
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Descargar ahora 📥", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Descarga ahora 📥", url=stream_link)]])
         )
 
 
@@ -231,7 +231,7 @@ async def help_handler(bot, message):
                 text="**Únase a mi grupo de DH-HD COMPLETOS para usar el Bᴏᴛ**!\n\n**Debido a la sobrecarga, solo los miembros del grupo pueden usar el Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("🤖 Unirme al grupo", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                        InlineKeyboardButton("🤖 Unete ahora", url=f"https://t.me/joinchat/{Var.UPDATES_CHANNEL}")
                         ]]
                 ),
                 parse_mode="markdown"
