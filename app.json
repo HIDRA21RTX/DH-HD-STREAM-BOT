@@ -1,5 +1,5 @@
 {
-  "name": "DH-HD STREAM 👻",
+  "name": "DH-HD STREAM",
   "description": "Un bot de Pyrogram Telegram para transmitir archivos de Telegram a la web. @CLAY_MODS",
   "keywords": [
       "telegram",
@@ -12,7 +12,7 @@
       "modular",
       "media"
     ],
-  "repository": "https://github.com/HIDRA21RTX/DH-HD-STREAM-BOT",
+  "repository": "https://github.com/HIDRA21RTX/DH-HD-STREAM-BOT/",
   "success_url": "/",
   "logo": "https://i.ibb.co/ZJzJ9Hq/link-3x.png",
   "website": "avipatilweb.me",
